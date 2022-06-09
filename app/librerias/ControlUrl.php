@@ -1,18 +1,15 @@
 <?php
 
 /*
- * \class ControlUrl
- * \brief  Maneja la dirección url y lanza los procesos
- *
+ * Autor: Mario Alberto Zayas González 
+ * Fecha: Junio 2022
  * Primer elemento: constante RUTA.
  * Segundo elemento: clase controladora: login, admin, etc.
  * Tercer elemento: método: registrar, modificar, etc.
  * Tercer elemento o más: los parámetros.
  * Ejemplo ruta en modo local: localhost/sgc/login/registrar
- *
- * \date 2021
- * \author Mario Alberto Zayas González
  */
+
 class ControlUrl
 {
   protected $controlador = 'Inicio';
