@@ -1,25 +1,25 @@
 <?php
 
 /*
- * \class Controlador
- * \brief Instancia el modelo e imprime la vista
- * \date 2021
- * \author Mario Alberto Zayas González
+ * Autor: MArio Alberto Zayas González
+ * Fecha: Junio 2022
+ * Instancia al modelo y muestra la vista
  */
+
 class Controlador
 {
   function __construct()
   {
   }
 
-  /// \fn modelo Instancia el modelo
+  /// Instancia al modelo
   public function modelo($modelo)
   {
 	  require_once('../app/modelos/'.$modelo.'.php');
 	  return new $modelo();
   }
 
-  /// \fn vista Imprime la vista con sus parámetros
+  /// Muestra la vista y obtiene sus parámetros
   public function vista($vista, $datos=[])
   {
     if (file_exists('../app/vistas/'.$vista.'.html')) {
