@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Autor: MArio Alberto Zayas González
+ * Autor: Mario Alberto Zayas González
  * Fecha: Junio 2022
  * Instancia al modelo y muestra la vista
  */
