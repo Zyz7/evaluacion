@@ -1,15 +1,11 @@
 <?php
 
 /*
- * \date 2021
- * \author Mario Alberto Zayas González
+ * Autor: Mario Alberto Zayas González
+ * Fecha: Junio 2022
+ * Instancia la clase ControlUrl de la carpeta app/librerias
  */
 
-/// Si no se puede incluir el archivo inicio.php se detiene la ejecución
+/// Si no se puede incluir el archivo inicio.php no se ejecuta
 require_once('../app/inicio.php');
-
-/**
- * \file ControlUrl.php
- * \brief Instancia la clase ControlUrl de la carpeta app/librerias
- */ 
 $control = new ControlUrl();    
