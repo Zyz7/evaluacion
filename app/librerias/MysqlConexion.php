@@ -1,11 +1,11 @@
 <?php
 
 /*
- * \class MysqlConexion
- * \brief Realiza la conexión y consultas a la base de datos
- * \date 2021
- * \author Mario Alberto Zayas González
+ * Autor. Mario alberto Zayas González
+ * Fecha: Junio 2022
+ * Realiza la conexión y las consultas a la base de datos
  */
+
 class MysqlConexion
 {
   private $host = 'eu-cdbr-west-03.cleardb.net';
@@ -31,7 +31,7 @@ class MysqlConexion
     }
   }
 
-  /// \fn consulta Regresa un valor
+  /// Regresa un valor
   function consulta($consulta)
   {
     $resultado = mysqli_query($this->conexion, $consulta);
@@ -45,7 +45,7 @@ class MysqlConexion
     return $valor;
   }
 
-  /// \fn cosultas Regresa más de un valor
+  /// Regresa más de un valor
   function consultas($consulta)
   {
     $valores = [];
@@ -60,7 +60,7 @@ class MysqlConexion
     return $valores;
   }
 
-  /// \fn consultaBooleno Regresa un valor booleano
+  /// Regresa un valor booleano
   function consultaBooleano($consulta)
   {
     $resultado = mysqli_query($this->conexion, $consulta);
