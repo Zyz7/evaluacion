@@ -12,7 +12,7 @@
 
 class ControlUrl
 {
-  protected $controlador = 'Inicio';
+  protected $controlador = 'InicioControlador';
   protected $metodo = 'caratula';
   protected $parametros = [];
 
